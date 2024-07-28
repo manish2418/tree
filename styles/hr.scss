@@ -1,0 +1,16 @@
+.hr-container {
+    width: 100%;
+    min-height: 110vh;
+    height: 100%;
+
+    .hr-body {
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: row;
+
+        .hr-menu {
+            width: fit-content;
+            padding-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.funded-status {
+  background: #e4faec;
+  border-radius: 6px;
+  padding: 4px 6px;
+  color: #25a050;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.expired-status {
+  background: #fef2f4;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f22d55;
+  padding: 4px 6px;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.pending-status {
+  background: #fff9dc;
+  border-radius: 6px;
+  padding: 4px 6px;
+  color: #d64417;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 22px;
+  font-family: 'Open Sans';
+  text-align: center;
+}
+.para{
+  justify-content: center;
+  text-align: center;
+  padding-top: 1.7rem;
+  
+}

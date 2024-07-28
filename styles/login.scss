@@ -1,0 +1,130 @@
+.login-container {
+  // background-image: url('../public/Assests/LoginBackground.png');
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    #d200194f,
+    #7462ff52,
+    #f48e215e,
+    #23d5ab56,
+    #d200194f,
+    #7462ff52,
+    #f48e215e,
+    #23d5ab56
+  );
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  .login {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(198, 197, 218, 0.5);
+    // opacity: 0.6;
+
+    .main-heading {
+      margin: 0;
+      text-align: center;
+      padding: 20px 0 0 0;
+      font-size: 60px;
+    }
+    .form-container {
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: center;
+        // font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      .login-form {
+        max-width: 400px;
+        .ant-form-item-label {
+          label {
+            font-weight: 500 !important;
+          }
+        }
+        .input {
+          border-radius: 12px !important;
+          min-height: 40px !important;
+          padding-left: 20px !important;
+        }
+
+        .forgot-password {
+          padding: 10px;
+          font-size: 16px;
+          line-height: 18px;
+          font-weight: 500;
+
+          &:hover {
+            color: #40a3ff !important;
+          }
+        }
+
+        .rember-row {
+          padding-left: 8px;
+        }
+
+        .rember-me {
+          padding-bottom: 10px;
+          font-size: 14px;
+          line-height: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+.input {
+  border-radius: 12px !important;
+  min-height: 40px !important;
+  padding-left: 20px !important;
+}
+.sign-in-button {
+  background-color: #e5e8f7 !important;
+  padding: 25px 90px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.forgot-password-modal {
+  .ant-modal-content {
+    min-height: 30vh !important;
+  }
+
+  .input {
+    min-height: 40px !important;
+  }
+  .forgot-password-row {
+    margin: 40px 0;
+
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 44px;
+      text-align: center;
+      color: #2b323b;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    .pass-warn {
+      background-color: #f2f9fe;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+  }
+}

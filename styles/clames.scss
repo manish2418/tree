@@ -1,0 +1,140 @@
+.claim-container {
+  // background-image: url("../public/Assests/LoginBackground.png");
+  width: 100%;
+  min-height: 110vh;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .claim {
+    width: 100%;
+    min-height: 110vh;
+    height: 100%;
+    background-color: rgba(198, 197, 218, 0.5);
+  }
+
+  .claim-body {
+    margin-top: 20px;
+
+    h2 {
+      font-size: 30px;
+      font-family: 'Open Sans';
+    }
+
+    .ant-upload-list-item {
+      background-color: #ffffff !important;
+    }
+
+    .sign-in-button {
+      background-color: #e5e8f7 !important;
+      padding: 25px 70px !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      font-size: 18px;
+      font-family: 'Open Sans';
+      font-weight: 700;
+    }
+
+    .claim-form {
+      label {
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Open Sans';
+        margin-bottom: 4px;
+      }
+    }
+  }
+
+  .claim-body {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: row;
+
+    .claim-menu {
+      width: fit-content;
+      padding-right: 20px;
+      height: fit-content;
+    }
+
+    h3 {
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 700;
+      color: orange;
+      font-family: 'Open Sans';
+      margin: 0 !important;
+    }
+
+    .heading-p {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 500;
+      font-family: 'Open Sans';
+      margin: 10px 0 !important;
+    }
+
+
+    .rows-background {
+      margin: 20px 0;
+      padding: 20px 0;
+      width: 100%;
+      display: flex;
+
+      .reimbursement-form {
+        width: 100%;
+        .ant-form-item-label {
+          label {
+            font-weight: 500;
+          }
+        }
+      }
+
+      .tab-two-button{
+        margin-top: 20  px;
+      }
+
+    }
+  }
+}
+
+.tooltip {
+  background-color: #ffffff !important;
+  color: #000000;
+  max-width: 800px;
+
+  .tooltip-heading {
+    background-color: #f7f5f8;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    font-family: 'Open Sans';
+    padding: 0 10px;
+  }
+
+  .tooltip-body {
+    padding: 10px 10px;
+
+    h4 {
+      font-family: 'Open Sans';
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+      padding-left: 5px;
+      font-family: 'Open Sans';
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.reimbursement-status {
+  .ant-modal-title {
+    h2 {
+      font-family: 'Open Sans';
+      margin: 0;
+    }
+  }
+}

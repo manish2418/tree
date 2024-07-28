@@ -1,0 +1,52 @@
+.payslip-container {
+  //   background-color: #ffffff !important;
+  //   width: 100%;
+
+  background-image: url('../public/Assests/LoginBackground.png');
+  width: 100%;
+  min-height: 110vh;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .payslip {
+    width: 100%;
+    min-height: 110vh;
+    height: 100%;
+    background-color: rgba(198, 197, 218, 0.5);
+  }
+
+  .payslip-header {
+    padding: 5px 20px 5px 20px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.04);
+
+    .header-row {
+      display: flex;
+      align-items: center;
+
+      p {
+        font-size: 26px;
+        font-family: 'Open Sans';
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.select-row {
+  padding: 20px 0;
+}
+
+.payslip-table {
+  .ant-table-cell {
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #f0f0f0;
+  }
+
+  .ant-table-row:last-child {
+    background-color: #d5d8dd;
+  }
+  .ant-table-thead > tr > th {
+    background-color: #d5d8dd;
+  }
+}

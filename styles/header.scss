@@ -1,0 +1,15 @@
+.app-header {
+    padding: 5px 20px 0px 20px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+
+    .header-row {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            font-size: 30px;
+            font-weight: 700;
+            font-family: 'Open Sans';
+        }
+    }
+}

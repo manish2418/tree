@@ -1,0 +1,81 @@
+.employee-container {
+  background-color: #ffffff !important;
+  width: 100%;
+
+  .employee-header {
+    h2 {
+      font-family: 'Open Sans';
+      margin: 0;
+    }
+
+    .employee-tabs {
+      padding: 20px 20px 0 20px;
+
+      h3 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #656c7c;
+        padding-bottom: 8px;
+        border-bottom: 3px solid #ffffff;
+        cursor: pointer;
+        font-family: 'Open Sans';
+        margin: 10px 40px 0 0;
+      }
+
+      h3:hover {
+        color: #000000;
+      }
+
+      .active-tab {
+        color: #000000;
+        border-bottom: 4px solid #5fa1ff;
+      }
+    }
+  }
+
+  .employee-body {
+    padding: 40px 0;
+    max-width: 100%;
+
+    .search-input {
+      padding-bottom: 20px;
+    }
+  }
+
+  .reporteer-body {
+    padding: 40px 0;
+    max-width: 100%;
+
+    .active-employee {
+      font-size: 16px;
+      font-family: 'Open Sans';
+      font-weight: 700;
+    }
+
+    .search-input {
+      padding-bottom: 20px;
+    }
+  }
+}
+
+.add-employee-modal {
+  .ant-modal-title {
+    h3 {
+      font-family: 'Open Sans';
+      margin: 0 !important;
+    }
+  }
+
+  .ant-modal-content {
+    padding: 20px 0 20px 24px;
+  }
+
+  .add-employee-form {
+    margin-top: 30px;
+    padding-right: 24px;
+    max-height: 600px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
